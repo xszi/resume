@@ -1,5 +1,9 @@
+## 这是一份由自己设计并开发的简历
 
+* `v2019` http://resume.wangjiuhua.com
+* `v2017` [2017版校招简历](https://github.com/xszi/resume/tree/master)
 
+**Fork或借鉴请遵循 [LICENSE](./LICENSE) 并注明出处 [@ Cong Min](https://github.com/xszi/resume) . Thx**
 
 - 0、**安装依赖：** `npm i`
 - 1、**启动：** `npm run dev` 开启调试服务
