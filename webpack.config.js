@@ -1,5 +1,5 @@
 /* webpack.config.js
- * @ Cong Min
+ * Wang Jiuhua
  */
 // const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -10,7 +10,7 @@ module.exports = {
         app: ['./src/entry.js']
     },
     output: {
-        filename: 'dist/[name].js?[hash:6]',
+        filename: 'resume/[name].js?[hash:6]',
         path: path.resolve(__dirname)
     },
     devServer: {
@@ -51,7 +51,7 @@ module.exports = {
                         loader: 'url-loader',
                         options: {
                             limit: 8192,
-                            name: 'dist/[name].[ext]?[hash:6]'
+                            name: 'resume/[name].[ext]?[hash:6]'
                         }
                     },
                     { // 压缩图片：https://github.com/tcoopman/image-webpack-loader
@@ -68,7 +68,7 @@ module.exports = {
                     loader: 'url-loader',
                     options: {
                         limit: 8192,
-                        name: 'dist/[name].[ext]?[hash:6]'
+                        name: 'resume/[name].[ext]?[hash:6]'
                     }
                 }
             }
