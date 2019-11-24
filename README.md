@@ -1,6 +1,6 @@
 ## 个人简历
 
-* http://resume.wangjiuhua.com
+* http://wangjiuhua.com/resume/index.html
 
 
 - 0、**安装依赖：** `npm i`
