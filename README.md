@@ -1,4 +1,4 @@
-# Webpack boilerplate with LESS, HTML modules, Babel
+# Webpack boilerplate with LESS, HTML modules, Babel 为什么无法触发？
 ## Features
 * Easy to start `yarn install` + `yarn start` (`npm install` + `npm start`)
 * Don't worry about webpack config, just code
