@@ -1,13 +1,59 @@
-## 个人简历
+# Webpack boilerplate with LESS, HTML modules, Babel
+## Features
+* Easy to start `yarn install` + `yarn start` (`npm install` + `npm start`)
+* Don't worry about webpack config, just code
+* Custom HTML Modules plugin
+```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Example doc</title>
+        </head>
+        <body>
+            <include>_header.html</include>
+            <h1>Content</h1>
+            <include>_footer.html</include>
+        </body>
+        </html>
 
-* http://wangjiuhua.com/resume/index.html
+```
+* HTML hot reload(Livereload)
+* LESS
+* jQuery already installed
+* Babel
+  * ES6
+  * ES7
+  * Class syntax + Class properties
+  * etc
+* Autoprefixer
+* Minifier
+* PostCSS
+* Eslint (airbnb-base config)
+* Eslinting on the fly (while dev)
+* Pretty console output (Friendly errors webpack plugin)
 
+## Adding libraries to JS
+1. Find the desired library at https://www.npmjs.com/ (example: https://www.npmjs.com/package/moment)
+2. Install `yarn add moment` or `npm install moment`
+3. Import library into your code `import moment from 'moment'`
+4. Use it
 
-- 0、**安装依赖：** `npm i`
-- 1、**启动：** `npm run dev` 开启调试服务
-- 2、**开发：** 编辑 `/src/index.html` 文件，Web服务实时预览
-- 3、**生产：** `npm run build` 打包构建
-- 4、**预览：** 浏览器打开 `/index.html` 查看结果
-
-> chrome浏览器 > 打印 > 目标另存为`PDF` > 更多设置无边距 > 即可导出
-
+## Usage
+Installation
+```
+npm install
+or
+yarn
+```
+Start dev server for development
+```
+npm start
+or 
+yarn start-yarn
+```
+Build
+```
+npm run build
+or
+yarn build
+```
