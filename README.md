@@ -1,6 +1,9 @@
 ## :boy: 个人简历项目
+* ~[简历在线查看](https://xszi.github.io/resume/index.html)
 * 使用Webpack, Html, Less, ESlint构建
-* 使用GitHub Actions 部署在GitHub Pages ~ [resume](https://xszi.github.io/resume/index.html)
+* 使用GitHub Actions 部署在GitHub Pages
+* webpack配置参考自[html-sass-babel-webpack-boilerplate
+](https://github.com/izica/html-sass-babel-webpack-boilerplate)，样式参考自[resume](https://github.com/mcc108/resume)，感谢~
 
 ## 项目启用 / 打包
 
@@ -10,7 +13,7 @@ git clone git@github.com:xszi/resume.git
 ~~~
 * 启动打包
 ~~~
-yarn install + yarn start (或者npm install + npm start)
+yarn install (或者npm install) // 安装依赖
 npm start // 启动
 npm run build // 构建打包
 ~~~
@@ -28,21 +31,15 @@ npm run build // 构建打包
     </body>
 </html>
 ```
-* 设计Webpack知识点
+* 知识点
     * HTML hot reload(Livereload)
     * LESS
-    * jQuery already installed
     * Babel
-    * ES6
-    * ES7
-    * Class syntax + Class properties
-    * etc
+    * ES6 / ES7
     * Autoprefixer
     * Minifier
     * PostCSS
-    * Eslint (airbnb-base config)
-    * Eslinting on the fly (while dev)
-    * Pretty console output (Friendly errors webpack plugin)
+    * Eslint
 
 ## 简历预览
 
