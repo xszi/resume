@@ -10,7 +10,6 @@ const htmlFileNames = fs.readdirSync('./src/html/');
 
 const getEntries = () => {
     const entries = [
-        './src/js/app.js',
         './src/css/index.less'
     ];
 
