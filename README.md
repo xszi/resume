@@ -41,6 +41,4 @@ npm run build // 构建打包
     * PostCSS
     * Eslint
 
-## 简历预览
-
-<img src="https://github.com/xszi/resume/blob/master/resume.jpg">
+# 日记
